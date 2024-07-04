@@ -307,7 +307,6 @@ void loop() {
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(0, 0);
   display.display();
-  delay(1000);
   wakeup();          // Open eyes
   center_eyes();     // Center eyes
   blink();           // Blink eyes
