@@ -1,7 +1,7 @@
   
   
 void initWiFiConn(){
-  String ssid="moto g64 5G_8985",password="123456789";
+  String ssid="Keralavision Jewel",password="jewel1305";
   WiFi.begin(ssid, password);
   Serial.print("Connecting to WiFi...");
   while (WiFi.status() != WL_CONNECTED) {
